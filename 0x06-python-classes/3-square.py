@@ -25,6 +25,6 @@ class Square:
             """Area of this square.
 
             Returns:
-            The size squared.
+                The size squared.
             """
             return self.__size ** 2

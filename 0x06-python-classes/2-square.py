@@ -9,11 +9,11 @@ class Square:
         """Constructor.
 
         Args:
-        size: Length of a side of a square.
+            size: Length of a side of a square.
 
         Raises:
-        TypeError: If size is not an integer
-        ValueError: If size is less than 0
+            TypeError: If size is not an integer
+            ValueError: If size is less than 0
         """
         if not isinstance(size, int):
             raise TypeErrpr('size must be an integer')
